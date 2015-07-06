@@ -1,0 +1,30 @@
+{
+  "name": "sleep-ms",
+  "version": "1.0.0",
+  "description": "Halt execution for a specific time period",
+  "author": "Shamasis Bhattacharya <mail@shamasis.net>",
+  "main": "index.js",
+  "bin": {
+    "sleep-ms": "sleepms.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shamasis/sleep-ms.git"
+  },
+  "keywords": [
+    "sleep",
+    "cli"
+  ],
+  "author": "Shamasis Bhattacharya <mail@shamasis.net> (=)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/shamasis/sleep-ms/issues"
+  },
+  "homepage": "https://github.com/shamasis/sleep-ms#readme",
+  "bin": {
+    "sleepms": "bin/sleepms.js"
+  }
+}
