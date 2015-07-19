@@ -7,7 +7,6 @@ module.exports = function (ms) {
 	if (isNaN(ms) || ms < 0) { return; }
 	ms = Number(ms);
 
-	// store the starting time and loop until current time is greater than start + sleep time
-	var start = Date.now();
-	while (Date.now() - start < ms);
+	// do setimeout for the specified interval
+	setTimeout(null, ms);
 };
