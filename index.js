@@ -8,5 +8,5 @@ module.exports = function (ms) {
 	ms = Number(ms);
 
 	// do setimeout for the specified interval
-	setTimeout(null, ms);
+	setTimeout(function(){}, ms);
 };
