@@ -1,4 +1,9 @@
 /**
+ * Computer protocol command that does nothing
+ */
+var noop = function(){};
+
+/**
  * This function halts the execution of a function by a specific duration
  * @param  {number} ms Time in milliseconds
  */
@@ -8,5 +13,5 @@ module.exports = function (ms) {
 	ms = Number(ms);
 
 	// do setimeout for the specified interval
-	setTimeout(null, ms);
+	setTimeout(noop, ms);
 };
