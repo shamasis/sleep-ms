@@ -1,7 +1,7 @@
 /**
  * Computer protocol command that does nothing
  */
-var noop = function(){};
+var noop = (function () { /* no operations*/ });
 
 /**
  * This function halts the execution of a function by a specific duration

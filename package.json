@@ -1,6 +1,6 @@
 {
   "name": "sleep-ms",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Halt execution for a specific time period",
   "author": "Shamasis Bhattacharya <mail@shamasis.net>",
   "main": "index.js",
