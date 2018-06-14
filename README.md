@@ -1,7 +1,6 @@
 # sleep-ms
 
-Sleep MS is primarily a command-line tool that emulates BASH [SLEEP](https://en.wikipedia.org/wiki/Sleep_%28Unix%29) 
-command using NodeJS.
+Sleep MS is a command-line tool that emulates BASH [SLEEP](https://en.wikipedia.org/wiki/Sleep_%28Unix%29) command using NodeJS with the propose to work fine in any operating system.
 
 ## Why sleep-ms?
 
@@ -24,13 +23,6 @@ sleepms 1000;
 ```
 > It is recommended that you do a global install using  `npm install sleep-ms -g;`
 
-## Using the JS API
+## JS API
 
-Usually there would not be any need to use this since using `setTimeout` in JavaScript is equivalent to this.
-
-```javascript
-var sleepms = require('sleep-ms');
-
-// sleep for one second
-sleepms(1000);
-```
+The JS api was deprecated in the latest release.
